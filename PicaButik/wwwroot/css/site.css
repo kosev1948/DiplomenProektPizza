@@ -1,0 +1,627 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+#imageContainer {
+    position: relative;
+}
+
+.swiffy-slider img {
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.swiffy-slider h1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 3px 3px black;
+}
+
+.swiffy-slider span {
+    position: absolute;
+    top: 6%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 3px 3px black;
+}
+
+.searchBtn {
+    background-color: #79000E;
+    font-family: cursive;
+    color: white;
+    width: 130px;
+    border-radius: 5%;
+    border: 1px solid black;
+    border-color: #79000E;
+}
+
+.AdminNewBtn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
+}
+
+    .AdminNewBtn a {
+        background-color: #79000E;
+        border-color: #79000E;
+    }
+
+        .AdminNewBtn a:hover {
+            background-color: #7F1818;
+            background-color: #7F1818;
+        }
+
+#imageContainer h1 {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px black;
+}
+
+
+.detailsAdminBtn a {
+    background-color: #79000E;
+    border-color: #79000E;
+}
+
+.btnSave {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .btnSave input[type=submit] {
+        width: 550px;
+        background-color: #79000E;
+        border-color: #79000E;
+    }
+
+.EditForm input[type=text] {
+    color: #722F37;
+    font-family: cursive;
+}
+
+.EditForm select {
+    color: #722F37;
+    font-family: cursive;
+}
+
+
+hr {
+    border-top: 2px solid black;
+}
+
+.ImportantItem {
+    display: flex;
+    justify-content: center;
+    color: #722F37;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.DetailsImage {
+    width: 50%;
+    border: 2px solid #959593;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.OrdersHeading {
+    color: #722F37;
+    text-shadow: 1px 1px #601F20;
+    font-weight: 750;
+}
+
+.table th {
+    font-weight: bold;
+    font-family: cursive;
+    color: #722F37;
+}
+
+.DetailsImage img {
+    max-width: 100%;
+    max-height: 430px;
+    height: auto;
+}
+
+.DetailsImage:hover {
+    box-shadow: 0 0 10px 2px #868686;
+    border: 2px solid lightskyblue;
+    cursor: pointer;
+}
+
+.WineInfoDetailed {
+    color: #722F37;
+    text-shadow: 1px 1px #601F20, 2px 2px black;
+    font-weight: 750;
+}
+
+.wineDetails {
+    display: flex;
+    justify-content: center;
+    padding: 5px
+}
+
+.InfoDetail {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.DetailedWines {
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    color: #722F37;
+}
+
+.ImportantDetail {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.DetailPrice {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.DescriptionDetailed {
+    font-family: cursive;
+}
+
+.detailsCustomerBtn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#buyBtnDetails {
+    width: 100%;
+    padding: 8px;
+    background-color: #79000E;
+    border-color: #79000E;
+}
+
+#ccountDetails {
+    width: 100%;
+    height: 50%;
+    padding: 5px;
+}
+
+.wineInformation {
+    display: flex;
+}
+
+.aboutusImage {
+    width: 50%;
+    padding: 10px
+}
+
+    .aboutusImage img {
+        max-width: 100%;
+        height: auto;
+    }
+
+#aboutUsContainer {
+    display: flex;
+}
+
+#HomeHeadings {
+    color: #640610;
+    text-shadow: 1px 1px #44161B, 2px 2px #44161B;
+    font-weight: 500
+}
+
+.aboutusText {
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+    .aboutusText p {
+        text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    }
+
+.degustationList li {
+    color: rgb(114, 47, 55);
+    font-family: cursive;
+}
+
+.degustationText p {
+    font-size: 18px;
+    font-family: cursive;
+    color: #722F37;
+}
+
+h1 {
+    text-align: center;
+}
+
+.degustationImage {
+    width: 50%;
+}
+
+
+    .degustationImage img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1%;
+        box-shadow: 2px 2px black;
+    }
+
+#degustation {
+    display: flex;
+}
+
+.degustationText {
+    width: 50%;
+    padding: 15px;
+    text-align: justify;
+}
+
+    .degustationText p {
+        font-size: 18px;
+    }
+
+/*.contactUs{
+    display:flex;
+    justify-content:center;
+}
+
+.contactUs .FirstForm fieldset {
+    font-family: cursive;
+    font-weight: 400;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 91%;
+}
+
+    .contactUs .FirstForm .formLabel {
+        color: #ccad00
+    }
+
+    .contactUs .SecondForm fieldset {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        backdrop-filter: blur(4px);
+        width: 95%;
+        height: auto;
+    }
+
+    .contactUs .SecondForm input[type=submit] {
+        background-color: dodgerblue;
+        color: white;
+        padding: 7px 7px;
+        cursor: pointer;
+        border-radius: 3%;
+        width: 35%;
+        text-align: center;
+        position: fixed;
+        left: 30%;
+        right: 35%;
+        top: 89%;
+    }
+
+    .contactUs .SecondForm input[type=text], select {
+        width: 100%;
+        height: auto;
+        padding: 12px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        resize: vertical
+    }
+
+    .contactUs .SecondForm textarea {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+
+    .contactUs .SecondForm input[type=submit]:hover {
+        background-color: royalblue;
+    }
+
+    .contactUs .ThirdForm fieldset {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        width: 56%;
+        height: auto;
+    }*/
+
+/*   .contactUs .ThirdForm iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }*/
+
+.Heading {
+    color: #722F37;
+    text-shadow: 1px 1px #601F20;
+    font-weight: 750;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .buttons #buyBtn {
+        width: 240px;
+        background-color: #79000E;
+        border-color: #79000E;
+    }
+
+    .buttons a {
+        margin: 3px 0px;
+    }
+
+.btnDivAdmin {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.wines-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.wines:hover {
+    box-shadow: 0 0 10px 2px #868686;
+}
+
+.wines {
+    border: 3px solid #959593;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Comic Sans MS';
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+    .wines img {
+        max-width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+
+.wineImg {
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionOfWine {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wine-description {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.col-sm-10 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #722F37;
+    font-family: cursive;
+}
+
+.col-sm-2 {
+    width: 50%;
+}
+
+.oldPrice {
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    width: 50%;
+    font-family: cursive;
+    color: #722F37;
+}
+
+.PromotionText {
+    width: 50%;
+    font-family: cursive;
+    color: #722F37;
+    font-weight: bold;
+}
+
+.Promotion {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 82%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 4px solid red;
+    background-color: yellow;
+    transform: rotate(17.5deg);
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.wine-name {
+    text-align: center;
+    color: #722F37;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.newPrice {
+    width: 50%;
+    font-family: cursive;
+    color: #722F37;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+#account {
+    padding: 20px;
+}
+
+#registerForm {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #84222C;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 16px;
+    position: absolute;
+    top: 100%;
+    flex-wrap: wrap;
+}
+
+.InfoTitle {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-justify: auto;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+.contactsMainText {
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
+
+    .contactsMainText:hover {
+        color: aliceblue;
+    }
+
+.contactsText {
+    font-family: cursive;
+    color: white;
+}
+
+.socialMediaImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+    .socialMediaImg img {
+        width: 50px;
+    }
+
+.contactsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.GalleryImages {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+    .GalleryImages img {
+        width: 70%;
+        height: auto;
+        justify-content: space-around;
+        border: 1px;
+        border-radius: 3%;
+        padding: 1%;
+    }
+
+        .GalleryImages img:hover {
+            box-shadow: 0 0 5px 1px #333333;
+        }

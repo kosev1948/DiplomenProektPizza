@@ -1,0 +1,124 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Контакти";
+}
+<style>
+    body {
+        background-image: url(https://eu2iok58o6p.exactdn.com/wp-content/uploads/2023/10/pexels-skitterphoto-2101186.jpg?strip=all&lossy=1&ssl=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contactUs {
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+
+    .FirstForm {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 10px;
+        backdrop-filter: blur(4px);
+        width: 30%;
+        height: auto;
+    }
+
+    h3, legend {
+        color: #722F37;
+        text-shadow: 1px 1px black;
+    }
+
+    p, b {
+        color: #79000E; /* #ccad00; */
+    }
+
+    .SecondForm {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        width: 30%;
+        height: auto;
+    }
+
+        .SecondForm input[type=submit] {
+            background-color: #79000E;
+            color: white;
+            padding: 7px 7px;
+            cursor: pointer;
+            border-radius: 3%;
+            width: 35%;
+            text-align: center;
+            position: fixed;
+            left: 30%;
+            right: 35%;
+            top: 89%;
+        }
+
+        .SecondForm input[type=text], select {
+            width: 100%;
+            height: auto;
+            padding: 12px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            resize: vertical
+        }
+
+    .ThirdForm {
+        font-family: cursive;
+        font-weight: 400;
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        width: 30%;
+        height: auto;
+        right: 5%;
+    }
+
+        .ThirdForm iframe {
+            height: 55%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 5%;
+        }
+
+    .Heading {
+        text-shadow: 1px 1px black;
+    }
+
+</style>
+
+<h1 class="Heading">@ViewData["Title"]</h1>
+<hr />
+<div class="contactUs">
+    <div class="FirstForm">
+        <h3>
+            <b>Контакти</b>
+        </h3>
+        <b>Имейл: </b>
+        <p>Pizzabutic@gmail.com</p>
+        <b>Адрес:</b>
+        <p>град Копривщица, България </p>
+        <b>Телефони за връзка: </b>
+        <p>+359 823 532 134</p>
+        <p>+359 131 456 902</p>
+        <p>+359 340 623 173</p>
+    </div>
+    <div class="ThirdForm">
+        <h3><b>Карта</b></h3>
+        <b>Местоположение</b>
+        <p>За по-подробна информация, относно местоположението, разгледайте картата.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11739.44721387808!2d24.7376953!3d42.6430896!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a996c22562a645%3A0xd983265e05eba076!2z0JLQuNC90LDRgNGB0LrQsCDQuNC30LHQsCDQodC-0L_QvtGC!5e0!3m2!1sbg!2sbg!4v1711826856579!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
